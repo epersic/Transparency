@@ -1,0 +1,4 @@
+pefile>=2023.2.7
+rich>=13.0
+questionary>=2.0
+eztw @ git+https://github.com/Cybereason/eztw
