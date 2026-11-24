@@ -1,4 +1,4 @@
-# childwatch
+# Transparency
 
 A Windows app analyser for red-team recon: launch a target inside a sandboxed
 job object, watch what it does, then turn the findings into attack surface —
@@ -59,7 +59,6 @@ Notes:
 - If no unsigned PE has a fitting cave, the cave analysis retries over
   signed PEs behind a warning — patching those breaks their signature and
   may trip WFP/SFC.
-- Signed ≠ safe and RWX ≠ malicious; both are triage signals, not verdicts.
 - Flags are only recognised **before** the first positional argument; `--`
   ends parsing. Legacy form `childwatch.py path [seconds] [args...]` works.
 
